@@ -12,9 +12,9 @@ end
 
 def not_safe?(speed)
 	result = (speed > 60 ? true : false);
-	return result
+
 	result = (speed < 40 ? true : false);
-	return result
+	
 	result = (speed >= 40 && speed <= 60 ? false : true);
 	return result
 end
